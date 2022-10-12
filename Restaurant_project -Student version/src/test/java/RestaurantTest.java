@@ -39,10 +39,6 @@ class RestaurantTest {
         assertFalse(restaurant.isRestaurantOpen());
     }
 
-    //<<<<<<<<<<<<<<<<<<<<<<<<<OPEN/CLOSED>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-    //>>>>>>>>>>>>>>>>>>>>>>>>>>>MENU<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     @Test
     @Tag("setUp")
     public void adding_item_to_menu_should_increase_menu_size_by_1(){
